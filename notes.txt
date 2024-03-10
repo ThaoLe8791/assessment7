@@ -25,3 +25,22 @@ Tiny Array
 ----------
 Time to run code with push(): 116.499 μs
 Time to run code with unshift(): 55.621 μs
+
+
+=====
+doublerAppend: This function scales well because it uses the push() method to add elements to the end of the array. 
+The time complexity of push() is constant (O(1)), meaning that adding an element to the end of an array takes the 
+same amount of time, regardless of the size of the array. As the array size increases, the time it takes to execute 
+doublerAppend will also increase, but at a constant rate, not proportionate to the size of the array.
+
+doublerInsert: This function does not scale as well because it uses the unshift() method to add elements to the 
+beginning of the array. The time complexity of unshift() is linear (O(n)), meaning that adding an element to the 
+beginning of an array takes time proportional to the size of the array. As the array size increases, the time it 
+takes to execute doublerInsert will increase at a rate that is directly proportional to the size of the array.
+
+In summary, doublerAppend scales better than doublerInsert because the time complexity of push() is constant, 
+while the time complexity of unshift() is linear. We can tell this by observing the timing results for 
+different array sizes: as the array size increases, the execution time for doublerAppend increases at a 
+relatively constant rate, while the execution time for doublerInsert increases at a rate that is directly 
+proportional to the size of the array. Therefore, doublerAppend is the more efficient and scalable function 
+for adding elements to an array.

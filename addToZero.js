@@ -17,4 +17,4 @@ console.log(addToZero([1]));
 console.log(addToZero([1, 2, 3]));   
 console.log(addToZero([1, 2, 3, -2]));
 
-//the overall space complexity of the addToZero function is O(n)
+//Time complexity is O(n), and space complexity is O(n)

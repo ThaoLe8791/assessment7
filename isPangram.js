@@ -13,4 +13,4 @@ console.log(isPangram("The quick brown fox jumps over the lazy dog!"));
 console.log(isPangram("I like cats, but not mice"));
 
 
-//the overall space complexity of the isPangram function is O(n)
+//Time complexity is O(n), and space complexity is O(1)
