@@ -9,4 +9,5 @@ function findLongestWord(words) {
 }
 console.log(findLongestWord(["hi", "hello"])); // -> 5
 
-// Space Complexity: O(n)
+//Time complexity is O(n), and space complexity is O(1).
+

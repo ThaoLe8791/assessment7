@@ -13,4 +13,4 @@ function hasUniqueChars(word) {
 console.log(hasUniqueChars("Monday"));   
 console.log(hasUniqueChars("Moonday"));  
 
-//the overall space complexity of the hasUniqueChars function is O(n)
+//Time complexity is O(n), and space complexity is O(n)
